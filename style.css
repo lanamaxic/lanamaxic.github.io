@@ -1,0 +1,348 @@
+*, *::before,*::after{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: #ffffff;
+    font-size: 16px;
+ }
+
+/* navbar starts */
+ #navbar {
+     height: 10vh;
+     width: 100%;
+     background:#062952b6;
+     position: sticky;
+     top: 0;   
+}
+
+.main-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #062952b6;
+    height: 10vh;
+    width: 100%;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-nav a:hover {
+    color: gray;
+} 
+
+.logo {
+    position: absolute;
+    width: 115px;
+    height: 70px;
+    margin-top: 0px;
+    margin-left: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(2, 2, 2);
+}
+/* navbar ends */
+
+/* homepage starts */
+#home {
+    background: linear-gradient(to bottom,  #4c4c4c9c 0%,#1313137c 100%),  url(img/1.jpg) no-repeat center center/cover ;
+    width: 100%;
+    height: 90vh;
+    border-bottom: 2px solid gray;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1rem;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* homepage ends */
+/* section 1 starts */
+#atp {
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to bottom,   #7766079c 0%,#d4e44b7c 100%),  url(img/6.jpg) no-repeat center center/cover;
+    border-bottom: 2px solid gray;
+}
+
+#atp h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    color: whitesmoke;
+}
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 20px; 
+}
+
+ th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+/* section 2 starts */
+#wta {
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(to bottom,  #7766079c 0%,#c9df4d7c 100%),  url(img/7.jpg) no-repeat center center/cover ;
+    border-bottom: 2px solid gray;
+
+}
+
+#wta h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    color: whitesmoke;
+}
+
+/* section 3 starts */
+#grand {
+    background: linear-gradient(to bottom,  #6d63299c 0%,#1313137c 100%),  url(img/14.jpg) no-repeat center center/cover ;
+    width: 100%;
+    height: 90vh;
+    border-bottom: 2px solid gray;
+}
+
+#grand h3 {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1rem;
+    padding: 50px;
+}  
+
+.Australian {
+    width: 50%;
+    float: left;
+    height: 90vh;
+}
+
+.Australian h5 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 10px; 
+}
+
+.Australian p {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px; 
+    text-align: center;
+    margin-top: 15px;
+}
+
+.US {
+    width: 50%;
+    float: right;
+    height: 90vh;
+}
+
+.US h5 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 10px; 
+}
+
+.US p {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px; 
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* section 3 starts */
+#grand2 {
+    background: linear-gradient(to bottom,  #574e1c4b 0%,#1313137c 100%),  url(img/12.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 90vh;
+    border-bottom: 2px solid gray;
+}
+
+.Roland {
+    width: 50%;
+    float: left;
+    height: 50vh;
+}
+
+.Roland h5 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 10px; 
+}
+
+.Roland p {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px; 
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Wimbledon {
+    width: 50%;
+    float: left;
+    height: 50vh;
+}
+
+.Wimbledon h5 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 10px; 
+}
+
+.Wimbledon p {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px; 
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* section 4 starts */
+#calendar {
+    background: linear-gradient(to bottom,  #574e1c4b 0%,#1313137c 100%),  url(img/10.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 90vh;
+    border-bottom: 2px solid gray;
+}
+
+.events {
+    height: 100vh;
+    width: 100%;
+}
+
+h6 {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1rem;
+    padding: 30px;
+}
+
+.events table {
+    width: 100%;
+    margin-left: 40px; 
+}
+
+.events th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+/* section 5 starts */
+#contact {
+    background: linear-gradient(to bottom,  #574e1c4b 0%,#1313137c 100%),  url(img/4.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 60vh;
+    border-bottom: 2px solid gray;
+}
+
+#contact .contact{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 3px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#contact a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background: #f8d300a8;
+    padding: 10px 20px;
+}
+
+#contact a:hover{
+    color: #fff;
+    background: #000000a8;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: rgb(8, 16, 36);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
